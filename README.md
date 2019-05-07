@@ -8,7 +8,9 @@ At this point in time this library presents only the parts of the [available API
 
 Install via pip: `python -m pip install cp2110`.
 
-The cp2110 library depends on the [pyhidapi](https://github.com Python module, which itself requires the `hidapi` shared library.  On Linux distributions, this is generally in the repositories (for instance, under Debian you can install either libhidapi-hidraw0 or libhidapi-libusb0 depending on which backend you want to use).
+The cp2110 library depends on the [pyhidapi](https://github.com/apmorton/pyhidapi) Python module, which itself requires the `hidapi` shared library.  On Linux distributions, this is generally in the repositories (for instance, under Debian you can install either libhidapi-hidraw0 or libhidapi-libusb0 depending on which backend you want to use).
+
+At the time of this writing there is a pull request out to the upstream pyhidapi library to fix that fixes segfaults when a device is not found or is disconnected after initialization.
 
 # Example usage
 
