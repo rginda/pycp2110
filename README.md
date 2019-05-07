@@ -70,7 +70,7 @@ The cp2110 library depends on the [pyhidapi](https://github.com/apmorton/pyhidap
   # Check if the UART is enabled.
   print(d.is_uart_enabled())
 
-  # The uart in your device may need to be explicitly enabled, particularly if
+  # The UART in your device may need to be explicitly enabled, particularly if
   # you've already explicitly disabled it as in this example.
   d.enable_uart()
 
