@@ -31,8 +31,7 @@ The cp2110 library depends on the [pyhidapi](https://github.com/apmorton/pyhidap
   except:
     pass
 
-  # You can also find a device by path.  Beware that specifying an invalid
-  # location will cause the hid api to segfault.
+  # You can also find a device by path.
   cp2110.CP2110Device(path='/dev/hidraw0')
 
   # If you want to avoid the exception or want to detect the presence of a
