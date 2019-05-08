@@ -5,5 +5,5 @@
 cp2110-env
 env
 dist
-cp2110.egg-info
+pycp2110.egg-info
 build
