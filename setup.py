@@ -8,7 +8,7 @@ README = open(os.path.join(here, 'README.md')).read()
 version = '1.0.0'
 
 setuptools.setup(
-    name='cp2110',
+    name='pycp2110',
     version=version,
     description='Silabs CP2110 USB HID to UART bridge library',
     long_description=README,
@@ -24,7 +24,7 @@ setuptools.setup(
     keywords='',
     author='Robert Ginda',
     author_email='rginda@gmail.com',
-    url='https://github.com/rginda/cp2110',
+    url='https://github.com/rginda/pycp2110',
     license='MIT',
     zip_safe=True,
     packages=setuptools.find_packages(),
