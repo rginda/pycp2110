@@ -4,9 +4,9 @@ This library provides a Python interface to the [Silicon Labs CP2110](https://ww
 
 At this point in time this library presents only the parts of the [available API](https://www.silabs.com/documents/public/application-notes/AN434-CP2110-4-Interface-Specification.pdf) that are required for basic UART access.
 
-#  cp2110 Installation
+#  pycp2110 Installation
 
-Install via pip: `python -m pip install cp2110`.
+Install via pip: `python -m pip install pycp2110`.
 
 The cp2110 library depends on the [pyhidapi](https://github.com/apmorton/pyhidapi) Python module, which itself requires the `hidapi` shared library.  On Linux distributions, this is generally in the repositories (for instance, under Debian you can install either libhidapi-hidraw0 or libhidapi-libusb0 depending on which backend you want to use).
 
