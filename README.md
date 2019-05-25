@@ -14,7 +14,6 @@ The cp2110 library depends on the [pyhidapi](https://github.com/apmorton/pyhidap
 
 ```
   import cp2110
-  import time
 
   # This will raise an exception if a device is not found.  Called with no
   # parameters, this looks for the default (VID, PID) of the CP2110, which are
