@@ -202,6 +202,6 @@ class CP2110Device(object):
 
   def read(self, size=None):
     if size is None:
-      size = cp2110.RX_TX_MAX + 1
+      size = RX_TX_MAX + 1
 
     return self.device.read(size)[1:]
